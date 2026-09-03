@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>與我們聯絡｜【品牌名稱】</title>
+  <meta name="description" content="訂購、成分、經銷合作都歡迎來信。" />
+  <link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../"><span>【品牌名稱】</span></a>
+      <nav class="nav" aria-label="主要選單">
+        <a href="../">首頁</a>
+        <a href="../products/">產品</a>
+        <a href="../about/">認識博士</a>
+        <a href="./" aria-current="page">聯絡我們</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="center" style="padding: 28px 0 12px">
+      <p class="eyebrow">客服與詢問</p>
+      <h1>與我們聯絡</h1>
+      <p class="lead">訂購、成分、經銷合作都歡迎來信，我們會在 1 個工作日內回覆。</p>
+    </section>
+
+    <section class="section split split-contact">
+      <div class="card form-card">
+        <h2>傳訊息給我們</h2>
+        <!--
+          GitHub Pages 無法跑 WordPress 表單。
+          請到 https://formspree.io 免費申請表單 ID，
+          把下面 action 的 YOUR_FORM_ID 換成你的 ID。
+        -->
+        <form class="form-grid" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>
+            姓名
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>
+            電子郵件
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>
+            聯絡電話
+            <input type="tel" name="phone" autocomplete="tel" />
+          </label>
+          <label>
+            詢問類型
+            <select name="type">
+              <option>產品詢問</option>
+              <option>訂購與運費</option>
+              <option>團購或企業採購</option>
+              <option>經銷合作</option>
+              <option>其他</option>
+            </select>
+          </label>
+          <label>
+            想詢問的產品
+            <input type="text" name="product" />
+          </label>
+          <label>
+            訊息內容
+            <textarea name="message" required></textarea>
+          </label>
+          <input type="hidden" name="_subject" value="官網詢問" />
+          <button class="btn btn-primary" type="submit">送出詢問</button>
+          <p class="form-hint">尚未設定 Formspree 前，也可直接寄信至下方客服信箱。</p>
+        </form>
+      </div>
+
+      <div>
+        <div class="card-soft">
+          <h3>客服資訊</h3>
+          <ul>
+            <li><strong>客服信箱</strong>：<a href="mailto:you@example.com">you@example.com</a></li>
+            <li><strong>客服電話</strong>：<a href="tel:+886200000000">【02-0000-0000】</a></li>
+            <li><strong>LINE 官方帳號</strong>：【連結】</li>
+            <li><strong>客服時間</strong>：週一至週五 09:00–18:00</li>
+            <li><strong>公司名稱</strong>：【　　】</li>
+            <li><strong>地址</strong>：【　　】</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:20px">
+          <details>
+            <summary>怎麼訂購、運費多少？</summary>
+            <p>【說明目前的下單方式（表單詢問後匯款／賣家連結）、運費與免運門檻】</p>
+          </details>
+          <details>
+            <summary>可以退換貨嗎？</summary>
+            <p>【說明退換貨條件與聯絡方式（食品類商品拆封後的處理原則請一併寫清楚）】</p>
+          </details>
+        </div>
+
+        <div class="placeholder" style="margin-top:20px">【地圖或 LINE QR Code 放這裡】</div>
+      </div>
+    </section>
+
+    <p class="legal">本站產品為一般食品，非藥品，不具醫療效能；身體不適請就醫。【公司名稱】・食品業者登錄字號【　　】</p>
+  </main>
+
+  <footer class="site-footer">
+    <nav aria-label="頁尾選單">
+      <a href="../">首頁</a>
+      <a href="../products/">產品</a>
+      <a href="../about/">認識博士</a>
+      <a href="./">聯絡我們</a>
+    </nav>
+    <p>【品牌名稱】・本站產品為一般食品，非藥品，不具醫療效能</p>
+  </footer>
+</body>
+</html>
