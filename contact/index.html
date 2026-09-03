@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>與我們聯絡｜【品牌名稱】</title>
-  <meta name="description" content="訂購、成分、經銷合作都歡迎來信。" />
+  <title>聯絡我們｜仕康企業有限公司</title>
+  <meta name="description" content="仕康企業有限公司聯絡方式：赫保康-II 訂購、成分與經銷詢問。" />
   <link rel="stylesheet" href="../assets/css/site.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="site-header-inner">
-      <a class="brand" href="../"><span>【品牌名稱】</span></a>
+      <a class="brand" href="../"><span>赫保康-II</span></a>
       <nav class="nav" aria-label="主要選單">
         <a href="../">首頁</a>
         <a href="../products/">產品</a>
-        <a href="../about/">認識博士</a>
+        <a href="../about/">認識院士</a>
         <a href="./" aria-current="page">聯絡我們</a>
       </nav>
     </div>
@@ -24,18 +24,13 @@
     <section class="center" style="padding: 28px 0 12px">
       <p class="eyebrow">客服與詢問</p>
       <h1>與我們聯絡</h1>
-      <p class="lead">訂購、成分、經銷合作都歡迎來信，我們會在 1 個工作日內回覆。</p>
+      <p class="lead">訂購、成分、經銷合作都歡迎來信，我們會盡快回覆。</p>
     </section>
 
     <section class="section split split-contact">
       <div class="card form-card">
         <h2>傳訊息給我們</h2>
-        <!--
-          GitHub Pages 無法跑 WordPress 表單。
-          請到 https://formspree.io 免費申請表單 ID，
-          把下面 action 的 YOUR_FORM_ID 換成你的 ID。
-        -->
-        <form class="form-grid" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="form-grid" action="mailto:enterprise@wilikonbio.com" method="get" enctype="text/plain">
           <label>
             姓名
             <input type="text" name="name" required autocomplete="name" />
@@ -60,57 +55,63 @@
           </label>
           <label>
             想詢問的產品
-            <input type="text" name="product" />
+            <input type="text" name="product" value="赫保康-II（HBK）" />
           </label>
           <label>
             訊息內容
-            <textarea name="message" required></textarea>
+            <textarea name="body" required placeholder="請描述您的需求…"></textarea>
           </label>
-          <input type="hidden" name="_subject" value="官網詢問" />
-          <button class="btn btn-primary" type="submit">送出詢問</button>
-          <p class="form-hint">尚未設定 Formspree 前，也可直接寄信至下方客服信箱。</p>
+          <button class="btn btn-primary" type="submit">開啟郵件送出</button>
+          <p class="form-hint">將開啟您的郵件程式。若要改為網頁表單直送，可到 Formspree 申請後替換表單 action。</p>
         </form>
       </div>
 
       <div>
         <div class="card-soft">
-          <h3>客服資訊</h3>
+          <h3>公司資訊</h3>
           <ul>
-            <li><strong>客服信箱</strong>：<a href="mailto:you@example.com">you@example.com</a></li>
-            <li><strong>客服電話</strong>：<a href="tel:+886200000000">【02-0000-0000】</a></li>
-            <li><strong>LINE 官方帳號</strong>：【連結】</li>
+            <li><strong>公司名稱</strong>：仕康企業有限公司</li>
+            <li><strong>統一編號</strong>：54900128</li>
+            <li><strong>地址</strong>：臺中市北區健行里忠明路502之1號7樓之1</li>
+            <li><strong>客服信箱</strong>：<a href="mailto:enterprise@wilikonbio.com">enterprise@wilikonbio.com</a></li>
+            <li><strong>電話</strong>：<a href="tel:+886422331658">886 4 2233 1658</a></li>
             <li><strong>客服時間</strong>：週一至週五 09:00–18:00</li>
-            <li><strong>公司名稱</strong>：【　　】</li>
-            <li><strong>地址</strong>：【　　】</li>
           </ul>
         </div>
 
         <div style="margin-top:20px">
-          <details>
+          <details open>
             <summary>怎麼訂購、運費多少？</summary>
-            <p>【說明目前的下單方式（表單詢問後匯款／賣家連結）、運費與免運門檻】</p>
+            <p>目前可透過本頁表單或來電詢問。實際下單方式、運費與免運門檻，將由客服依地區與數量回覆確認。</p>
           </details>
           <details>
             <summary>可以退換貨嗎？</summary>
-            <p>【說明退換貨條件與聯絡方式（食品類商品拆封後的處理原則請一併寫清楚）】</p>
+            <p>食品類商品退換貨依消費者保護相關規定與商品保存狀態辦理。未拆封且在合理期間內，請先與客服聯繫；已拆封食品原則上不適用任意退貨，細節以客服說明為準。</p>
+          </details>
+          <details>
+            <summary>產品是藥嗎？</summary>
+            <p>赫保康-II 為一般食品／營養補給，非藥品，不具醫療效能。身體不適請就醫。</p>
           </details>
         </div>
 
-        <div class="placeholder" style="margin-top:20px">【地圖或 LINE QR Code 放這裡】</div>
+        <div class="product-shot" style="margin-top:20px">
+          <img src="../assets/images/hbk-front.jpg" alt="赫保康-II 產品" />
+        </div>
       </div>
     </section>
 
-    <p class="legal">本站產品為一般食品，非藥品，不具醫療效能；身體不適請就醫。【公司名稱】・食品業者登錄字號【　　】</p>
+    <p class="legal">本站產品為一般食品，非藥品，不具醫療效能；身體不適請就醫。<br />仕康企業有限公司 · 統一編號 54900128 · 臺中市北區健行里忠明路502之1號7樓之1</p>
   </main>
 
   <footer class="site-footer">
     <nav aria-label="頁尾選單">
       <a href="../">首頁</a>
       <a href="../products/">產品</a>
-      <a href="../about/">認識博士</a>
+      <a href="../about/">認識院士</a>
       <a href="./">聯絡我們</a>
     </nav>
-    <p>【品牌名稱】・本站產品為一般食品，非藥品，不具醫療效能</p>
+    <p>仕康企業有限公司 · 統一編號 54900128</p>
+    <p>本站產品為一般食品，非藥品，不具醫療效能</p>
   </footer>
 </body>
 </html>
